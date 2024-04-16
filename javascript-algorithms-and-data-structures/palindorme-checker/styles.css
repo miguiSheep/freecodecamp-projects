@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A23;
+    color: white;
+    
+    box-sizing: border-box;
+
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#checker-text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#checker{
+    width: min(100vw, 450px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 6px 6px #002ead;
+}
+
+form{
+    background-color: white;
+}
+
+form p, input, button{
+    color: blueviolet;
+    margin: 10px;
+    background-color: white;
+}
+
+form p{
+    font-size: 30px;
+    border: 1px white solid;
+}
+
+#input-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    color: #0A0A23;
+    width: 70%;
+    height: 25px;
+    padding: 0 10px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#result{
+    color: blueviolet;
+    background:none;
+}
+
+#description{  
+    background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px 100px;
+    padding: 10px;
+    font-size: 30px;
+    vertical-align: middle;
+    width: min(100vw, 450px);
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#converter{
+    margin-top: 150px;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+
+form{
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+form input{
+    text-indent: 10px;
+    border:none;
+    border-bottom:1px solid black;
+    width: 150px;
+    height: 40px;
+}
+
+form input:hover{
+    transition: 0.4s ease;
+    border-bottom: red 1px solid;
+}
+
+form button{
+    width: 60px;
+    margin:0 20px;
+    border-radius: 10px;
+}
+
+form button:hover{
+    background-color: black;
+    color: red;
+    transition: 0.6s ease;
+    border: red 1px solid;
+}
+
+form input:focus{
+    outline:none
+}
+
+#result{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    
+}

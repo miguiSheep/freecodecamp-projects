@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+	<div id="head"><h1 id="title">Encuesta Choco´s Cake</h1>
+	<h2><p id="description">Una pequeña encuesta para saber como nos conociste</p></h2>
+</div>
+</header>
+	<section>
+	<form id="survey-form" action="#">
+
+		<!--datos personales-->
+		<fieldset id="field1">
+			<h3 id="h3-data">Hablanos sobre ti</h3>
+			<hr id="hr-label">
+			<label for="name" id="name-label" class="label-data"> Nombre
+			<input type="text" name="name" placeholder="Dinos tu nombre..." id="name" required class="data">
+			</label>
+			<label class="label-data" for="last-name"> Apellido
+			<input type="text" name="last-name" placeholder="Dinos tu apellido..." id="last-name" required class="data">
+			</label>
+			<label for="email" id="email-label" class="label-data"> Correo
+			<input type="email" name="email" placeholder="¿cual es tu correo?..." id="email" required class="data">
+			</label>
+			<label for="age" id="number-label" class="label-data"> Edad
+			<input type="number" name="age" min="13" max="90" placeholder="¿Cuantos años tienes?..." id="number" required class="data">
+			</label>
+			<label for="bio" class="label-data"> Cuentanos algo sobre ti
+			<textarea name="bio" placeholder="por ejemplo, ¿que comida te gusta?..." id="bio" required rows="5" cols="50"></textarea>
+			</label>
+		</fieldset>
+		
+		<!--referencias-->
+		<fieldset id="field2">
+			<hr>
+			<h3 id="h3-ref">¿Como nos conociste?</h3>
+			<select id="dropdown">
+				<option>Escoje  una</option>
+				<option>Me dijo un amigo</option>
+				<option>Vi su instagram</option>
+				<option>Vi su local</option>
+			</select>
+			<h3> Haz comprado alguno de nuestros productos</h3>
+			<div id="radio-div">
+			<div class="label-radio"><label><input type="radio" name="visita" value="si-visita"> lo he hecho antes</label></div>
+			<div class="label-radio"><label><input type="radio" name="visita" value="no-visita"> aun no lo he hecho </label></div>
+			</div>
+		</fieldset>
+		<!--Gustos-->
+		<fieldset id="field3">
+		<hr>
+			<h3 id=h3-check>Dinos que sabores te gustan</h3>
+			<div id="check">
+			<label><input type="checkbox" name="vainilla" value="vainilla"> Vainilla</label>
+			<label><input type="checkbox" name="Chocolate" value="Chocolate"> Chocolate</label>
+			<label><input type="checkbox" name="Fresa" value="Fresa"> Fresa</label>
+			<label><input type="checkbox" name="Menta" value="menta"> Menta</label>
+			<label><input type="checkbox" name="Ron-Pasas" value="Ron-Pasas"> Ron con pasas</label>
+			<label><input type="checkbox" name="Cafe" value="Cafe"> Cafe</label>
+			</div>
+		</fieldset>
+		<input id="submit" type="submit" name="submit">
+	</form>
+	</section>
+</body>
+</html>
