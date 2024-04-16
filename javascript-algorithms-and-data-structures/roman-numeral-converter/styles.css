@@ -12,14 +12,14 @@ h1{
     text-align: center;
 }
 
-form{
+#inputs{
     margin: 20px;
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-form input{
+#number{
     text-indent: 10px;
     border:none;
     border-bottom:1px solid black;
@@ -27,29 +27,29 @@ form input{
     height: 40px;
 }
 
-form input:hover{
+#number:hover{
     transition: 0.4s ease;
     border-bottom: red 1px solid;
 }
 
-form button{
+#convert-btn{
     width: 60px;
     margin:0 20px;
     border-radius: 10px;
 }
 
-form button:hover{
+#convert-btn:hover{
     background-color: black;
     color: red;
     transition: 0.6s ease;
     border: red 1px solid;
 }
 
-form input:focus{
+#number:focus{
     outline:none
 }
 
-#result{
+#output{
     text-align: center;
     margin: 0 auto;
     width: 300px;
