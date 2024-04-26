@@ -1,3 +1,16 @@
+:root {
+    --gray-00: #ffffff;
+    --gray-05: #f5f6f7;
+    --gray-15: #d0d0d5;
+    --gray-75: #3b3b4f;
+    --gray-85: #1b1b32;
+    --gray-90: #0a0a23;
+    --blue-50: #198eee;
+    --error: #a94442;
+    --danger-color: #850000;
+    --danger-background: #ffadad;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +30,7 @@ h1{
     display: flex;
     align-content: center;
     justify-content: center;
+    color: black;
 }
 
 #number{
@@ -55,5 +69,17 @@ h1{
     width: 300px;
     height: 50px;
     border: 1px solid black;
+    color:black;
     
 }
+
+.alert {
+    font-size: 2rem;
+    background-color: var(--danger-background);
+    border: 3px solid var(--danger-color);
+    color: var(--danger-color);
+  }
+  
+  .hidden {
+    display: none;
+  }
