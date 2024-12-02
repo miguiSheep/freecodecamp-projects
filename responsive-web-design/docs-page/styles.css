@@ -10,11 +10,23 @@
 }
 
 #navbar header {
-    margin: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #010205;
+    font-size: 30px;
 }
 
 #navbar li {
     border-top: solid rgba(0, 22, 22, 0.4);
+    height: 50px;
+    align-content: center;
+}
+
+#navbar a {
+    text-decoration-line: none;
+    color: rgba(0, 22, 22, 0.8);
+    margin-left: 15px;
+    font-size: 20px;
 }
 
 #main-doc {
@@ -29,6 +41,7 @@
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
+    margin: 0;
 }
 
 ul {
@@ -41,8 +54,16 @@ ul {
     padding-inline-start: 40px;
 }
 
-.nav-link {
-    margin: 20px;
+.main-section header {
+    font-size: 30px;
+}
+
+.main-section p {
+    font-size: 25px;
+}
+
+.main-section {
+    font-size: 20px;
 }
 
 html,
